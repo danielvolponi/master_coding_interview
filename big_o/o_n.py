@@ -2,7 +2,7 @@
 """Finding Nemo
 
 A function that looks for the string nemo of a list.
-O(n) -> linear time.
+O(n) -> linear time
 For every input the script have to do one operation
 """
 
