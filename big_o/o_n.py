@@ -2,12 +2,10 @@
 """Finding Nemo
 
 A function that looks for the string nemo of a list.
-O(n) -> linear time
+O(n) -> linear time 
+It takes linear time to find nemo
 For every input the script have to do one operation
 """
-
-
-
 
 nemo = ['nemo']
 
@@ -16,12 +14,9 @@ medium_list = ['nemo' for i in range(100)]
 large_list = ['nemo' for i in range(10000)]
 
 def find_nemo(array):
-    count = 0
     for i in array:
         if i == 'nemo':
             print('Found Nemo')
-        count += 1
-    print(count)
 
 
 find_nemo(large_list)

@@ -19,11 +19,13 @@ medium_list = ['nemo' for i in range(100)]
 large_list = ['nemo' for i in range(10000)]
 
 def find_nemo(array):
-    t0 = time.time()
+    # t0 = time.time()
     for i in array:
+        print('running')
         if i == 'nemo':
             print('Found Nemo')
-    t1 = time.time()
-    print(f'Call to find Nemo took {t1 - t0}')
+            break
+    # t1 = time.time()
+    # print(f'Call to find Nemo took {t1 - t0}')
 
-find_nemo(large_list)
+find_nemo(everyone)
